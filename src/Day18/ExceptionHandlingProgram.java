@@ -44,6 +44,31 @@ public class ExceptionHandlingProgram {
 	}
 	*/
 		
+/*.............Number Format Exception................*/		
+		/*
+		try
+		{
+		String s="Yogesh";
+		Integer.parseInt(s);
+		}
+		catch (Exception e)
+		{
+			System.out.println(e.getMessage());
+		}
+		
+        */
+/*..............Null Pointer Exception.................*/
+		try
+		{		
+			String A=null;
+			System.out.println(A.length());
+
+		}
+		catch (Exception e)
+		{
+			System.out.println(e.getMessage());
+		}
+				
 		System.out.println("Program Is Ended..");
 	
 		
